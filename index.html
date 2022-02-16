@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- =====Unicons===== -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!-- Google FOnts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Brighton Mboya</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Hall of fame" class="nav__link">
+                                <i class="uil uil-rocket nav__icon"></i> Hall of Fame
+                            </a>
+                        </li>
+    
+                        <li class="nav__item">
+                            <a href="#Contact me" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close nav__icon" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/brighton-mboya-52b455158/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            <a href="https://github.com/BrightonMboya" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x='-30' y="1" xlink:href="img/home-img.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Brighton</h1>
+                            <p class="home__description">Helping companies make informed decision with Data</p>
+                            <a href="mailto:b.mboya@alustudent.com" target="_blank" class="button button--flex">
+                                Contact Me<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">My Work</h2>
+                <span class="section__subtitle">Most Recent Work</span>
+                <div class="portfolio__container container" id="portfolio__des">
+                    <div>
+                        <div class="portfolio__content">
+                        <!-- =====portfolio 1===== -->
+                        <img src="img/diabetes.jpg" alt="" class="portfolio__img">
+                        <h3 class="portfolio__title">Diabetes Prediction</h3>
+                        <p class="portfolio__description">
+                            A web app build with Streamlit that predicts the occurance of diabetes on a patient based on different inputs.
+                        </p>
+                        <div>
+                            <a href="https://github.com/BrightonMboya/Diabetes-Prediction-App" target="_blank" class="button button--flex button--small portfolio__button">
+                                Source Code
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                        </div>
+
+                        <div class="portfolio__content">
+                            <!-- =====portfolio 2===== -->
+                            <img src="img/dataPipeline.jpg" alt="" class="portfolio__img">
+                            <h3 class="portfolio__title">Data Pipeline</h3>
+                            <p class="portfolio__description">
+                                Build a Data pipeline for an imaginary music streaming company similar to Spotify.
+                            </p>
+                            <a href="https://github.com/BrightonMboya" target="_blank" class="button button--flex button--small portfolio__button">
+                                Source Code
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="portfolio__content">
+                            <!-- =====portfolio 3===== -->
+                            <img src="img/news.jpg" alt="" class="portfolio__img">
+                            <h3 class="portfolio__title">News Classification</h3>
+                            <p class="portfolio__description">
+                                Build an algorithm for classifying Swahili News based on different categories.</p>
+                            <a href="https://github.com/BrightonMboya/Machine-learning-Projects/tree/main/Swahili_news_classification" target="_blank" class="button button--flex button--small portfolio__button">
+                                Source Code
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Hall of Fame</h2>
+                <span class="section__subtitle">My Career Journey So Far</span>
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>Work
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                                <!--==================== QUALIFICATION 1====================-->
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">Bsc in Computer Science</h3>
+                                        <span class="qualification__subtitle">African Leadership University</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i> 2021-2024
+                                        </div>
+                                        <div class="qualification__details">
+                                            <p>Relevant CourseWork include Algorithm and Data Structures, Web Development, Java, Python, System Design, and Machine Learning</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                </div>
+
+                                <!--==================== QUALIFICATION 2====================-->
+                                <div class="qualification__data">
+                                    <div></div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div>
+                                        <h3 class="qualification__title">Machine Learning Engineer</h3>
+                                        <span class="qualification__subtitle">AgriPredict</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i> June 2021 - Dec 2021
+                                        </div>
+                                        <div class="qualification__details">
+                                            <p>I worked closely with the engineering team and implemented two research papers that involves using Deep-Learning-Powered Iterative Combinatorial Auctions. 
+                                                I worked with gRPC, Jupyter Notebooks, and programmed using Python</p>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <!--==================== QUALIFICATION CONTENT 2====================-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--==================== QUALIFICATION 1====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Data Engineering</h3>
+                                <span class="qualification__subtitle">DataCamp</span>
+                                <div class="qualification__calendar">Dec 2021 - March 2022
+                                    <i class="uil uil-calendar-alt"></i>
+                                </div>
+                                <div class="qualification__details">
+                                    <p>Skills acquired include Apache Airflow, Bash Scripting, PySpark, AWS Boto3, SQL, PostegreSQL, Cron, Scala Programming Language, and ETL
+                                        </p>
+                                </div>
+                                
+                            </div>
+                            
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Admissions Intern</h3>
+                                <span class="qualification__subtitle">African Leadership University</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>June 2021 - Present
+                                </div>
+                                <div class="qualification__details">
+                                    <p>At ALU I was able to assist prospective students on their admission process and liaise with communications and recruitment programs facilitation.
+
+                                    I Promoted superior experience by addressing customer concerns on Zendesk, demonstrating empathy, and resolving their problems swiftly.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+            </div>
+                </div>
+
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer footer__container">
+            <div class="footer__bg">
+                <span class="footer__subtitle">2021 All right reserved</span>
+            </div>
+            
+        </footer>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/JS/main.js"></script>
+    </body>
+</html>
